@@ -1,5 +1,5 @@
 #getting base image(os on which java already installed)
-FROM
+FROM openjdk:11
 
 #working directory on which all the code will be kept (inside container)
 WORKDIR app/
