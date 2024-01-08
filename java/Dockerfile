@@ -5,10 +5,10 @@ FROM openjdk:11
 WORKDIR app/
 
 #copy the app from your system to the current working directory  of container
-COPY  Hello.java .
+COPY  HelloWorld.java .
 
 #compile code
-RUN javac Hello.java
+RUN javac HelloWorld.java
 
 #run java compiled code
-CMD ["java","Hello"]
+CMD ["java","HelloWorld"]
