@@ -8,7 +8,8 @@ WORKDIR app/
 COPY app.py .
 
 #install required libraries
-RUN pip install flask
+RUN pip install Flask
 
-#Run the appliucation
-CMD ["python" "app.py"]
+#Run the application
+CMD ["python","app.py"]
+
